@@ -1,0 +1,53 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content="this is DreamToHaHa blog"><meta name="keywords" content="测试,其他"><link rel="stylesheet" type="text/css" href="//fonts.loli.net/css?family=Source+Code+Pro"><link rel="stylesheet" type="text/css" href="/css/style.css?v=2.0.4"><link rel="stylesheet" type="text/css" href="/css/highlight.css?v=2.0.4"><link rel="Shortcut Icon" href="/favicon.ico"><link rel="bookmark" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"><link rel="alternate" type="application/atom+xml" href="/atom.xml"><title>hexo 框架中关于 markdown 简明语法 | DreamToHaHa</title><meta name="generator" content="Hexo 4.0.0"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">hexo 框架中关于 markdown 简明语法</h1><a id="logo" href="/.">DreamToHaHa</a><p class="description"></p></div><div id="nav-menu"><a href="/." class="current"><i class="fa fa-home"> 首页</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a><a href="/atom.xml"><i class="fa fa-rss"> 订阅</i></a></div><div id="search-form"><div id="result-mask" class="hide"></div><label><input id="search-key" type="text" autocomplete="off" placeholder="搜索"></label><div id="result-wrap" class="hide"><div id="search-result"></div></div><div class="hide"><template id="search-tpl"><div class="item"><a href="/{path}" title="{title}"><div class="title">{title}</div><div class="time">{date}</div><div class="tags">{tags}</div></a></div></template></div></div></div><div id="layout" class="layout-g"><div class="layout-l"><div class="content_container"><div class="post"><h1 class="post-title">hexo 框架中关于 markdown 简明语法</h1><div class="post-meta"><a href="/2019/11/11/hexo-%E6%A1%86%E6%9E%B6%E4%B8%AD%E5%85%B3%E4%BA%8E-markdown-%E7%AE%80%E6%98%8E%E8%AF%AD%E6%B3%95/#comments" class="comment-count"></a><p><span class="date">Nov 11, 2019</span><span><a href="/categories/hexo%E6%95%99%E7%A8%8B/" class="category">hexo教程</a></span></p></div><div class="post-content"><p>markdown的语法本质上都是可以用的，但是在hexo框架下还是有些节点需要进行注意。此篇文章主要就是用来介绍hexo框架编写markdown的语法节点，同时也将markdown的基本用法进行介绍  </p>
+<h1 id="一级标题-关于段落"><a href="#一级标题-关于段落" class="headerlink" title="一级标题-关于段落"></a>一级标题-关于段落</h1><p>这是一个段落，直接在一行的最后加上两个空格，并且需要将下一个段落进行换行<br>另外一种方式就是在两个段落中间加上空行即可</p>
+<h2 id="二级标题-关于字体"><a href="#二级标题-关于字体" class="headerlink" title="二级标题-关于字体"></a>二级标题-关于字体</h2><p><em>斜体文本，只需要在开头和结尾加上星号即可</em><br><strong>粗体文本，需要在开头和结尾加上双星号即可</strong><br><strong><em>粗斜体文本，需要在开头和结尾加上三星号即可</em></strong>  </p>
+<p><strong>分隔线</strong>只需要使用***进行单独一行即可</p>
+<hr>
+<p><strong>删除线</strong>需要使用在开头和结尾使用两个<del>波浪线即可<br>~</del>这是一个删除线~~<br><strong>下划线</strong>需要使用的符号进行标记<br><u>这是下划线的标记</u>  </p>
+<p><strong>角标标注</strong>需要在需要加标注的地方使用[^RUNOOB]进行标注<br>添加标注[^RUNOOB]<br>[^RUNOOB]: 菜鸟教程 – 根据菜鸟教程进行编写脚注！！！</p>
+<h3 id="三级标题–关于列表"><a href="#三级标题–关于列表" class="headerlink" title="三级标题–关于列表"></a>三级标题–关于列表</h3><ul>
+<li>第一项星号后面需要空格</li>
+<li>第二项星号后面需要空格</li>
+<li>第三项星号后面需要空格</li>
+</ul>
+<ol>
+<li>第一项也需要空格    </li>
+<li>第二项也需要空格    </li>
+<li>第三项也需要空格    </li>
+</ol>
+<ul>
+<li>第一项    <ol>
+<li>项目</li>
+<li>项目</li>
+<li>项目</li>
+</ol>
+</li>
+</ul>
+<ol>
+<li>第二项    <ul>
+<li>2.1项目</li>
+<li>2.2项目</li>
+<li>2.3项目<h4 id="四级标题–关于区块"><a href="#四级标题–关于区块" class="headerlink" title="四级标题–关于区块"></a>四级标题–关于区块</h4><blockquote>
+<p>这是一个区块，但是我不知道有啥用</p>
+<blockquote>
+<p>二级区块</p>
+<blockquote>
+<p>三级区块</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<h5 id="五级标题–关于代码"><a href="#五级标题–关于代码" class="headerlink" title="五级标题–关于代码"></a>五级标题–关于代码</h5>下面是一段代码，使用英文的反单引号进行实现<br><code>this is the code</code><br>下面是一个代码片段，使用英文的反单引号进行实现 <pre><code class="python"><span class="keyword">import</span> pywinauto
+<span class="keyword">from</span> pyautogui <span class="keyword">import</span> application
+app = application.Application()
+app.start(cmd_line=<span class="string">""</span>)</code></pre>
+<h6 id="六级标题–关于链接"><a href="#六级标题–关于链接" class="headerlink" title="六级标题–关于链接"></a>六级标题–关于链接</h6>这是一个链接使用英文中括号和圆括号进行实现<br><a href="http://dreamtohaha.github.io/" target="_blank" rel="noopener">this is a link to this project</a></li>
+</ul>
+</li>
+</ol>
+</div><div class="tags"><a href="/tags/hexo%E6%95%99%E7%A8%8B/">hexo教程</a></div><div class="post-share"><div class="social-share"><span>分享到:</span></div></div><div class="post-nav"><a href="/2019/11/12/UI%E8%87%AA%E5%8A%A8%E5%8C%96%E5%88%86%E4%BA%AB/" class="pre">UI 自动化分享</a></div><div id="comments"></div></div></div></div><div class="layout-r"><div id="sidebar"><div class="search-pla"></div><div id="toc" class="widget"><div class="widget-title"><i class="fa fa-fei">文章目录</i></div><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#一级标题-关于段落"><span class="toc-text">一级标题-关于段落</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#二级标题-关于字体"><span class="toc-text">二级标题-关于字体</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#三级标题–关于列表"><span class="toc-text">三级标题–关于列表</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#四级标题–关于区块"><span class="toc-text">四级标题–关于区块</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#五级标题–关于代码"><span class="toc-text">五级标题–关于代码</span></a><ol class="toc-child"><li class="toc-item toc-level-6"><a class="toc-link" href="#六级标题–关于链接"><span class="toc-text">六级标题–关于链接</span></a></li></ol></li></ol></li></ol></li></ol></li></ol></li></ol></div><div class="widget"><div class="widget-title"><i class="fa fa-xie"> 最新文章</i></div><ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2019/11/12/UI%E8%87%AA%E5%8A%A8%E5%8C%96%E5%88%86%E4%BA%AB/">UI 自动化分享</a></li><li class="post-list-item"><a class="post-list-link" href="/2019/11/11/hexo-%E6%A1%86%E6%9E%B6%E4%B8%AD%E5%85%B3%E4%BA%8E-markdown-%E7%AE%80%E6%98%8E%E8%AF%AD%E6%B3%95/">hexo 框架中关于 markdown 简明语法</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-gui"> 分类</i></div><ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/hexo%E6%95%99%E7%A8%8B/">hexo教程</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%B1%BB%E5%88%AB/">类别</a><span class="category-list-count">1</span></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-biao"> 标签</i></div><div class="tagcloud"><a href="/tags/%E6%A0%87%E7%AD%BE/" style="font-size: 15px;">标签</a> <a href="/tags/hexo%E6%95%99%E7%A8%8B/" style="font-size: 15px;">hexo教程</a></div></div><div class="widget"><div class="widget-title"><i class="fa fa-archive"> 归档</i></div><ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/">2019</a><span class="archive-list-count">2</span></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-you"> 友情链接</i></div><ul></ul><a href="http://www.baidu.com/" title="百度" target="_blank">百度</a><ul></ul><a href="http://www.google.com" title="谷歌" target="_blank">谷歌</a></div></div></div></div><a id="totop" href="#top"></a><div id="footer"><div class="footer-info"><p><a href="/baidusitemap.xml">网站地图</a> |  <a href="/atom.xml">订阅本站</a> |  <a href="/about/">联系博主</a></p><p><span> Copyright &copy;<a href="/." rel="nofollow">DreamToHaHa.</a></span><span> Theme by<a rel="nofollow" target="_blank" href="https://github.com/chaooo/hexo-theme-BlueLake"> BlueLake.</a></span><span> Powered by<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo.</a></span></p></div></div></div><script type="text/javascript" src="/js/search.json.js?v=2.0.4"></script><script type="text/x-mathjax-config">MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    processEscapes: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+  }
+});</script><script type="text/javascript" src="//cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML" async></script><script type="text/javascript" src="/js/toctotop.js?v=2.0.4" async></script><link rel="stylesheet" type="text/css" href="/share/css/share.css"><script type="text/javascript" src="/share/js/social-share.js" charset="utf-8"></script><script type="text/javascript" src="/share/js/qrcode.js" charset="utf-8"></script></body></html>
